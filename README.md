@@ -32,7 +32,7 @@ CLIENT_ACCESS_TOKEN can be found inside your created Dialogflow project: Agent -
 ```
 CLIENT_ACCESS_TOKEN = 'your token from Dialog Flow'
 ```
-### Service account 
+### Add service account key inside project 
 Create _raw_ directory inside R.drawable. Inside it paste your private key file and name it _test_agent_credentials.json_. 
 ![client_access_token](https://github.com/vildanap/DialogFlowChatbot/blob/master/screenshots/raw_file.PNG)
 
