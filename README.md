@@ -34,8 +34,22 @@ CLIENT_ACCESS_TOKEN = 'your token from Dialog Flow'
 ```
 ### Service account 
 Create _raw_ directory inside R.drawable. Inside it paste your private key file and name it _test_agent_credentials.json_. 
-More about service account keys on: [Link](https://cloud.google.com/dialogflow/docs/quick/setup)
 ![client_access_token](https://github.com/vildanap/DialogFlowChatbot/blob/master/screenshots/raw_file.PNG)
+
+Content of _test_agent_credentials.json_ looks like this:
+```
+{
+  "type": "",
+  "project_id": "",
+  "private_key_id": "",
+  "private_key": "",
+  "client_email": "",
+    ...
+  "client_x509_cert_url": ""
+}
+
+```
+More about generating service account keys on: [Link](https://cloud.google.com/dialogflow/docs/quick/setup)
 
 ## Screenshots
 
