@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/startChat"
+            style="@android:style/Widget.DeviceDefault.ImageButton"
+            android:layout_width="87dp"
+            android:layout_height="87dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="305dp"
+            android:layout_marginLeft="305dp"
+            android:layout_marginTop="424dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="0dp"
+            android:adjustViewBounds="false"
+            android:background="@android:color/transparent"
+            android:cropToPadding="false"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="234dp"
+            android:layout_height="47dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="99dp"
+            android:layout_marginLeft="99dp"
+            android:layout_marginTop="161dp"
+            android:layout_marginEnd="51dp"
+            android:layout_marginRight="51dp"
+            android:layout_marginBottom="303dp"
+            android:text="Welcome to App!"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</LinearLayout>
