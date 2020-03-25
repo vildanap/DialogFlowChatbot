@@ -5,7 +5,7 @@
 # Table of contents
 
 * [Prerequisites](#Prerequisites)
-* [Setup Android project](#Setup Android project)
+* [Setup Android project](#Setup)
 * [Status](#status)
 
 ## Prerequisites
@@ -25,4 +25,4 @@ Note: CLIENT_ACCESS_TOKEN can be found inside your created Dialogflow project.
 !(client_access_token.PNG)()
 ### Service account 
 Create _raw_ directory inside R.drawable. Inside it paste your private key file and name it _test_agent_credentials.json_. 
-More about service account keys on: ![Link](https://cloud.google.com/dialogflow/docs/quick/setup)
+More about service account keys on: [Link](https://cloud.google.com/dialogflow/docs/quick/setup)
