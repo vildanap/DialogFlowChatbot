@@ -1,5 +1,6 @@
 # DialogFlowChatbot
 
+# Description
 > Based on user query inside chat (e.g. questions about working hours, booking appointment, etc.), and with help of API.AI Android SDK - text recognition is integrated with dialog scenarios created for agent inside Dialogflow project.
 
 # Table of contents
